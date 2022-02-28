@@ -6,7 +6,7 @@
 - Thrive on the ability to make data-driven decisions.
 -  Gives you the metrics to see what is working and what isn't working.
 -  Flying blind without analytics in place. "If you can't measure it, you can't prove it." Peter Drucker
--  Is the **industry standart** for web analytics and is a requirement for digital marketing or ads.
+-  Is the **industry standard** for web analytics and is a requirement for digital marketing or ads.
 
 ## How Does Google Analytics Works
 
@@ -28,4 +28,9 @@ inactivity or when a user closes a browser.
 1) Create or sign in to Analytics account.
 2) Setup a property (represents your website or app and is the collection point in Analytics for data).
 3) Add the tracking code to your site. Admin > tracking info > add after opening <head> tag on each page.
-4) Verify that the tracking code is working. Open website in serparate tab and check on analytics.
+4) Verify that the tracking code is working. Open website in serparate tab and check on analytics
+  
+## Create Reporting Views
+
+- **Views:** the level in an Analytics account where you can access reports and analysis tools.
+  
