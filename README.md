@@ -26,11 +26,18 @@ inactivity or when a user closes a browser.
 ## Google analytics Setup
 
 1) Create or sign in to Analytics account.
-2) Setup a property (represents your website or app and is the collection point in Analytics for data).
-3) Add the tracking code to your site. Admin > tracking info > add after opening <head> tag on each page.
-4) Verify that the tracking code is working. Open website in serparate tab and check on analytics
+3) Setup a property (represents your website or app and is the collection point in Analytics for data).
+4) Add the tracking code to your site. Admin > tracking info > add after opening <head> tag on each page.
+5) Verify that the tracking code is working. Open website in serparate tab and check on analytics.
   
 ## Create Reporting Views
 
 - **Views:** the level in an Analytics account where you can access reports and analysis tools.
+
+**Account Structure**
+  - **Account:** access point for Analytics and the top-most level of organization.
+  - **Property:** website, mobile app or device. Add up to **50 properties** yo each account.
+  - **View:** access point for reports. Defined view of data from property. Add up to **25 views** to property.
   
+**Why Create Additional Views?**
+- When you add a property to an account Analytics creates a **Reporting View** for that property.
