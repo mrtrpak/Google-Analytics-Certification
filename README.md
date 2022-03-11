@@ -130,3 +130,94 @@ drop out and success rates of each step leading up to a conversion.
 - **Event Goals:** tracking clicks to call for example. Requires setup of event tracking.
 - **Smart Goals:** specifically designed to help Google Ads user who don't have enough conversions
 to use the Google Ads optimization tools.
+
+## Navigate Google Analytics
+
+**Layout and Navigation Controls:**
+- **Account/Property/View switcher:** when having multiple accounts, properties &/or views can switch between.
+- **Search:** Access key reports quickly w/o needing to click through navigation.
+- **Home Page:** Summary of your site's vital signs. Use to see everything performing as expected.
+- **Customization:** Allows you to create custom reports specific to your business.
+- **Left-Hand Navigation:** navigate between reports. Each section exposes the reports belonging to it.
+
+## Main Tools for Analysis
+
+**Reporting Tools & Controls for Analysis:**
+- **Date Range Selector:** Set the time period in which you want to analyze report data.
+- **Date Range Comparison:** Compare from 2 different date ranges to see how it compares over time.
+- **Segment Picker:** Add segments to a report to compare different subsets of data.
+- **Line Gragh:** See different metrics in a line graph for the date range selected.
+- **Metric Selector:** Change metric shown from users to a different metric from drop-down menu.
+- **Duration Selector:** Change the data points to show hourly, weekly or monthly.
+
+## Analyze Key Reports (over 100 pre-configured reports in Google Analytics)
+
+- **Audience Reports:** provide insight into characteristics of your users.
+    - Benefits: **understand age, gender, location and interests** of valuable users to cater to future 
+    campaigns. **Expand into new markets** based on where you are getting web traffic from. Use high
+    bounce rates to identify **technical issues on site** that may be blocking sales. Plan **development
+    needs** based on device and operating systems most used. **Benchmark against competitors**.
+    
+    - To view data on age, gender, etc. of visitors, must go to setting to enable Advertising features.
+    Once enabled you are required to notify your visitors by disclosing it in your privacy policy.
+    
+    - **Demographics:** age and gender of your website audience.
+    - **Interests:** user interest segmented by affinity and marketing categories.
+    - **Geo:** the languages and locations of your website audience.
+    - **Behavior:** compares new and returning visitors, how often revisited and how long spent on site.
+    - **Technology:** the browsers, operating systems and networks of your website visitors.
+    - **Mobile:** breakdown of devices used to access your site.
+    - **Benchmarking:** Compare your property's performance to that of your industry peers.
+
+- **Acquisition Reports:** shows how the website acquires users.
+    - Benefits: **Optimize your marketing** to compare performance of different channels and allocate
+    resources to what is working best. See how **each channel drives conversions**. **Identify traffic 
+    sources to grow** (high conversion but low/med traffic). **Identify budget gaps**. Also **track the
+    return on social media traffic.** **Identify website owners who are referring your site**.
+    - Limits & Caveats: If for tech reasons Google cannot identify the traffic source it will be added to
+    the **Direct Channel** and appear in the **source/medium** report as **direct/none**. **Campaign
+    Tagging** can be used to reduce direct/none traffic from your own email and marketing campaigns. 
+    
+    - Need to setup the **Search Console** and link to Google Analytics account to get set data.
+    
+    - **Organic Search:** came to your site after using a search engine.
+    - **Paid Search:** came to your site from Google Ads or other paid search ad.
+    - **Direct:** came to your site w/o a traceable referral source.
+    - **Referral:** came to your site from another site by clicking on a link.
+    - **Social:** came your site from a social network.
+
+- **Behaviour Reports:** provide insight into the behaviour of users on your site.
+    - Benefits: See the pages on site that get the most traffic and highest engagement to **find content
+    ideas** and help content climb the search results. **Make a better first impression** by identifying
+    first pages users see in a session and improve them to reduce bounce rates and increase conversion.
+    **Stop users from leaving** by identifying the pages where users are leaving your site. **Improve
+    page load speed**.
+    
+    - **All Pages Report:** see the pages on site that get the most traffic and highest engagement.
+    - **Landing Pages Report:** these are the 1st pages viewed in a session. Landing page must be relevant to help conversions.
+    - **Exit Pages Report:** shows the last pages people visit before exiting website.
+    - **Site Speed:** shows how quickly users are able to see and interact with content.
+
+### Google Analytics Dashboards
+
+- **Dashboards:** an easy way to see an overview of the reports and metrics you care most about.
+
+**Benefits:** 
+- monitor many metrics at once to quickly check the health of accounts.
+- see correlations between different reports.
+- create dashboards for different roles ar metrics (site performance, Ecommerce, PPC, etc.).
+- can import dashboards from the Google analytics Demo Account OR Google Analytics Solutions Gallery.
+
+**Limits and Caveats:**
+- Each analytics view can contain up to **20 Dashboards** per user.
+- Each dashboard can contain up to **12 Widgets**.
+
+**How to Add Dashboards:**
+1) Add a new dashboard: Import existing or create your own. Customization > Dashboards > Create
+2) Add Widgets: **Widgets** provide snapshots of standard or custom reports or you can widget to create
+your own is a mini-report.
+
+**How to Share Dashboards:**
+- share with other users via the Share Menu. Can share via email or export them to PDF as well using the
+Export and Email menu options. Sharing the template link WILL NOT share your website data.
+
