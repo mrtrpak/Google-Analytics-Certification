@@ -198,7 +198,7 @@ to use the Google Ads optimization tools.
     - **Exit Pages Report:** shows the last pages people visit before exiting website.
     - **Site Speed:** shows how quickly users are able to see and interact with content.
 
-### Google Analytics Dashboards
+## Google Analytics Dashboards
 
 - **Dashboards:** an easy way to see an overview of the reports and metrics you care most about.
 
@@ -221,3 +221,58 @@ your own is a mini-report.
 - share with other users via the Share Menu. Can share via email or export them to PDF as well using the
 Export and Email menu options. Sharing the template link WILL NOT share your website data.
 
+## Campaign Tagging
+
+- **Campaign Tagging** helps you determine which marketing campaigns are driving the most traffic.
+
+**Benefits:**
+- By default, Google Analytics is **not able** to identify the different digital marketing campaigns 
+that send visitors to your site. Can **only identify the source and medium**. Campaign tagging lets
+you know which post or ad the traffic came from.
+- if running **email campaigns** this helps because email is grossly under reported b/c of technical 
+limitations. Can tag links pointing back to your site.
+- If running paid search campaigns outside of Google Ads those may show up as organic visits.
+
+**How to Tag Campaign Links:**
+1) Open the **Campaign URL Builder**: can add extra bits of info (known as **campaign tags, UTM tags or parameters**) to the URL of your online marketing or advertising campaigns.
+2) Add the **Campaign Tags**: note, medium, source and campaign are required campaign tags. Can add 
+tags for Content and Term.
+3) Copy and paste the Campaign URL: paste the tagged link into your email, post, etc. like a normal link.
+
+**Tips:** 
+- if you are not sure what source/medium tags to use look at existing categorisations in the 
+source/medium report.
+- **Enable auto-tagging for Google Ads**. Link Google Ads account to Google Analytics.
+- **Enable auto-tagging for email**. can setup with providers like Mailchimp. Clicks from email will 
+automatically be recorded in Analytics.
+- **Track Facebook Ads in Google Analytics**. Facebook Ads Manager gives insight on performance and 
+track conversions of the ad. However by **Campaign Tagging** you'll be able to see what else your
+audience is intersted in before and after conversions. Help promote relevant items, optimize conversion path and see what your biggest hits of content are.
+
+**Campaign Tags Explanations:**
+- **Medium:** communicates the mechanism or how you sent your message to the user. EX: email, CPC, social
+- **Source:** communicates where the user came from.
+- **Campaign:** communicates the name of your marketing campaign.
+- **Content:** can be used to differentiate versions of a promotion.
+- **Term:** used to identify the keyword for paid search campaigns. Only use if you are manually
+tagging a paid search campaign like Bing or Yahoo!.
+
+**Reporting:**
+- **View Campaign Reports:** to verify that the campaign is collecting data properly, see campaign
+info in Acquisition > All Campaigns report (may need to wait 24 hours for data).
+
+## Linking Google Ads
+
+**Benefits:**
+- See the full customer cycle. From customers interact with your marketing to how they finally 
+complete the goals you've set for them on your site. Help to better analyze performance of campaigns.
+- Enable Auto-tagging. Campaign data is shared between accounts. To automatically add a special 
+campaign tag (=gclid) to your Google Ads URLs, simply enable auto-tagging in Google Ads account.
+- Setup remarketing campaigns. Build user audiences to show targeted ads to bring users back to a 
+site to encourage a conversion.
+
+1) Link Your Google Analytics Property. Admin > Google Ads Linking > New Link Group
+2) Enable auto-tagging. Log into Google Ads. Go to Settings > Account Settings > check box and "save"
+
+**Google Ads Reports in Google analytics:**
+- View Google Ads reports. Once linked you can find Google Ads reports under "Acquisition" in Analytics.
