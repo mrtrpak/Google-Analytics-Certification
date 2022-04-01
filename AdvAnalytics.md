@@ -75,6 +75,45 @@ organize metrics into columns.
 - Cannot be shared in the Solutions Gallery like goals, segments, dashboards and custom reports.
 - Cannot be deleted but can be disabled.
 
-### Event Tracking 
+### Event Tracking
+
+- **Event Tracking:** allows you to capture user interactions on site which Google doesn't auto capture.
+
+**Benefits of Event Tracking:**
+- Track interactions Google Analytics Goals can't track (usually requires specific page to be 
+loaded like thank you page). Allows you to track interactions on a single page.
+- Better understanding user behavior. If users are engaging with your content and performing 
+intended actions important for your site and business.
+- View event tracking reports. All data collected is reported within the Event Tracking 
+sub-section in the Behaviour Reports section.
+
+**Example Events:**
+- Click-to-call phone number
+- External link clicks like third-party live chat
+- Clicks on email addresses
+- Video plays
+- Podcast plays
+- Selected color or size (ecommerce sites)
+- Abondonment of form field
+- Movement of mouse
+- Scrolling down the page
+- Clicks to social profiles
+
+**How to Setup Event Tracking:**
+1) Copy the tracking code template. To track an event a snippet of code is added to the link on 
+your site you want to track. When the link is clicked the interaction is tracked and displayed as an event in Google Analytics.
+    - Template: onclick="ga('send','event','Category','Action','Label','Value');"
+2) Replace the template fields. replace category, action, label and value to describe user interaction on website.
+    - **Category:** required; typically the object or group of objects that was interacted with
+    - **Action:** required; type of interaction (play, download)
+    - **Label:** optional; useful for summarising what the event is about (name of video or PDF)
+    - **Value:** optional; numeric value associated with the event
+3) Implement the tracking code. Add the link and event tracking code.
+Or use **Google Tag Manager** to add the tracking code.
+    - **Example:** 
+    <ahref-"www.example.com/pdf/company.pdf"
+    onclick="ga('send','event','PDF','Download','Company PDF Download');>
+    *ANCHOR TEXT*</a>
+
 
 ### Other Useful Configurations (Cross domain tracking, users Ids, etc.)
