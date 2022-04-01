@@ -68,6 +68,13 @@ organize metrics into columns.
     - Different businesses do this in different ways based on data collection method and data.
     - **Google Tag Manager** is a great option for managing Custom Metric tracking code.
 
+**Limits and Caveats to Custom Metrics:**
+- Not a must but should know and not avoid its benefits.
+- Can create up to 20 Custom Metrics.
+- Can't apply retroactively.
+- Cannot be shared in the Solutions Gallery like goals, segments, dashboards and custom reports.
+- Cannot be deleted but can be disabled.
+
 ### Event Tracking 
 
 ### Other Useful Configurations (Cross domain tracking, users Ids, etc.)
