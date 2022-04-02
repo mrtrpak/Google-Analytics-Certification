@@ -159,3 +159,7 @@ and see how it is performing.
     - data imports provide an alternative to collecting data by the JavaScript tracking code.
     - if importing custom dimensions and metric data, need to create custom dimensions and 
     metrics prior to uploading the data.
+
+## Advanced Analysis Tools and Techniques
+
+### Segments
