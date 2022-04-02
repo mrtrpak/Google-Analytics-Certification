@@ -114,6 +114,48 @@ Or use **Google Tag Manager** to add the tracking code.
     <ahref-"www.example.com/pdf/company.pdf"
     onclick="ga('send','event','PDF','Download','Company PDF Download');>
     *ANCHOR TEXT*</a>
-
+    
+**View Event Tracking Reporting:**
+- View event reports: Click Behavior > Events > Overview to look at the events you have tracked
+and see how it is performing.
 
 ### Other Useful Configurations (Cross domain tracking, users Ids, etc.)
+
+- **Custom Session Settings:** set how long sessions can last.
+    - By default sessions end after 30 minutes of inactivity or closes the browser.
+    - Can extend the length if average users spend a lot more time on the site.
+    - For example a game site a user may play for multiple hours in one session. 
+    - Go to Admin > Session settings to ajust session timeout.
+
+- **Cross-Domain Tracking:** track users and sessions across multiple domains.
+    - w/o this the shopping behavior and checkout won't get linked together.
+    - Google cannot like anonymous ID (client ID) by one domain to another domain.
+    - setup cross-domain tracking using Google Tag Manager or modify tracking code.
+
+- **User-ID:** track users across multiple devices and sessions.
+    - by default Google will NOT be able to identify sessions from the same user when sessions
+    happen in different browsers on the same device or browsers on different devices.
+    - this is because anonymous ID (client ID) assigned by Google is stored in the browser.
+    - to use this you must have a sign-in that generates your own IDs and be able to consistenly
+    associate them with a set of data.
+    - can set this up in the Admin section uder User ID.
+
+- **Internal Site Search:** see how users search your site.
+    - if you have a search field that customers can use on your site you can setup "site search"
+    to track what search terms users enter.
+    - helps identify missing or obscured content, optimize navigation and site layout, improve
+    search results and even generate ideas for new keywords for marketing campaigns.
+    - to setup go to Admin > View > View Settings. Enable site search tracking and enter the 
+    "query parameter" that your website uses in the URL when users search on your site.
+    
+- **Custom Channel Group:** customize how Google Analytics groups channels in your reports.
+    - by default Google groups your traffic sources using default channels: Organic, Social,
+    Direct, Referral and Display.
+    - to setup go to Admin > make a copy of the default channel grouping. 
+    - Edit it to label your traffic in other ways for analysis.
+    - example: move traffic source from "social" to "community".
+
+- **Data Import:** upload data from external sources and combine it with data already collected.
+    - data imports provide an alternative to collecting data by the JavaScript tracking code.
+    - if importing custom dimensions and metric data, need to create custom dimensions and 
+    metrics prior to uploading the data.
