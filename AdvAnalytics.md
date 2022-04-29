@@ -163,3 +163,19 @@ and see how it is performing.
 ## Advanced Analysis Tools and Techniques
 
 ### Segments
+
+- **Segments**: One of the most powerful tools in analytics which allow you to isolate and compare various groups of users on your website.
+
+**Benefits of Segments:**
+- Segmentation allows you to understand differences between various groups of your users and to
+identify growth opportunities based on those differences.
+- Compare up to 4 segments side by side in a single report.
+- Can be applied to any report within Google analytics interface.
+- Segments can be applied to historical data.
+- Segments Do NOT permanently alter your data like filters do.
+- Segments can be sued to build audiences for remarketing campaigns.
+
+**Example Segments:**
+- Converters vs. Non-converters: compare behavior of visitors who converted versus who didn't.
+What are the differences in age, gender or interests? Understand the factors that are helping to
+drive conversions and optimize your site or marketing to encourage conversions.
